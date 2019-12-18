@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1080" height="534.29" version="1.1" viewBox="0 0 285.75 141.3631" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter1813" x="-1.2359" y="-.13763" width="3.4718" height="1.2753" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="9.4072481"/>
+  </filter>
+  <filter id="filter1817" x="-1.5719" y="-.13763" width="4.1438" height="1.2753" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="9.4072481"/>
+  </filter>
+  <filter id="filter1821" x="-1.1739" y="-.13763" width="3.3479" height="1.2753" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="9.4072481"/>
+  </filter>
+ </defs>
+ <g transform="translate(9.0714 -24.857)">
+  <rect x="-9.0714" y="24.857" width="285.75" height="141.36" style="fill:#020200;paint-order:markers fill stroke"/>
+  <path d="m66.146 180.96s-15.933-26.88-18.143-41.955c-5.9418-40.543 14.363-122.09 14.363-122.09" style="fill:none;filter:url(#filter1821);stroke-width:13.229;stroke:#550000"/>
+  <path d="m118.31 180.96s10.533-45.338 10.583-68.414c0.0709-32.233-14.363-95.628-14.363-95.628" style="fill:none;filter:url(#filter1817);stroke-width:13.229;stroke:#550000"/>
+  <path d="m181.43 176.8s-254.92-107.04 13.229-99.786c18.392 0.49734 66.146-63.878 66.146-63.878" style="fill:none;filter:url(#filter1813);stroke-width:13.229;stroke:#550000"/>
+ </g>
+</svg>

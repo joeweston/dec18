@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+exapmple
+body {
+  color: $body-color;
+  @include screen(small){
+    background-color: #FFFFE4;
+  }
+  @include screen(medium){
+    background-color: #eee;
+  }
+  @include screen(large){
+    background-color: yellow;
+  }
+}
+ */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  background-image: url("../../images/drawing.svg");
+  background-size: cover; }
+
+h1 {
+  text-align: center; }
+  @media only screen and (max-width: 619px) {
+    h1 {
+      font-size: 35px;
+      padding: 30vh 0; } }
+  @media only screen and (min-width: 620px) {
+    h1 {
+      font-size: 60px;
+      padding: 30vh 0; } }
+  @media only screen and (min-width: 1000px) {
+    h1 {
+      font-size: 70px;
+      padding: 30vh 0; } }
+
+h2 {
+  font-size: 25px;
+  line-height: 70px;
+  text-align: center; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+p {
+  font-size: 16px;
+  line-height: 25px; }
+
+#nav ul {
+  display: flex; }
+  @media only screen and (max-width: 619px) {
+    #nav ul {
+      flex-wrap: wrap;
+      padding: 0 5px;
+      justify-content: center; } }
+  #nav ul li {
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px; }
+    @media only screen and (min-width: 620px) {
+      #nav ul li {
+        border-left: 2px solid white; } }
+    #nav ul li:first-child {
+      border-left: none; }
+  @media only screen and (min-width: 1000px) {
+    #nav ul .right {
+      border-left: none;
+      margin-left: auto; } }
+
+@media only screen and (max-width: 619px) {
+  #main-section {
+    margin: auto;
+    padding: 0 30px; } }
+
+@media only screen and (min-width: 620px) {
+  #main-section {
+    margin: auto;
+    width: 720px;
+    padding: 0 20px; } }
+
+@media only screen and (min-width: 1000px) {
+  #main-section {
+    margin: auto;
+    width: 720px;
+    padding: 0 20px; } }
+
+#footer {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 80px 30px 0 30px;
+  border-top: 1px solid white;
+  max-width: 1200px; }
+  @media only screen and (min-width: 1000px) {
+    #footer {
+      max-width: 1000px;
+      margin: 80px auto 0; } }
+  #footer ul {
+    width: 33%; }
+    #footer ul:nth-child(2) {
+      text-align: center; }
+    #footer ul:last-child {
+      text-align: right; }
+    #footer ul li {
+      line-height: 30px; }
